@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.total-div{
+    display: flex;
+    height: 100vh;
+}
+.equilibrum{
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    padding: 1rem 2rem;
+    width: 340px; 
+    border-radius:20px;
+    text-align: left;
+    
+}
+
+.image img{
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.equilibrum-1{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 1rem;
+    /* padding: 8px; */
+    /* padding-left: 2em; */
+}
+
+.equilibrum-2{
+    color: rgb(107, 111, 128);
+    margin-bottom: 1rem;
+    /* padding: 10px; */
+    /* padding-left: 2em; */
+}
+
+.days{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid rgb(53, 53, 83);
+    /* padding-bottom: 8px; */
+}
+
+.avatar{
+    color: #fff;
+    /* padding-left: 10px; */
+    margin-top: 1rem;
+    
+}
+
+.creation{
+    color: rgb(69, 69, 138);
+}
+
+.etherum{
+    color: rgba(5, 226, 226, 0.877);
+    font-size: 18px;
+}
+
+.left{
+    color: rgba(73, 73, 202, 0.918);
+    font-size: 18px;
+}
+
+.avatar img{
+    width: 1.8rem; 
+}
+
+.etherum{
+    display: flex;
+    font-size:  12px;
+    align-items: center;
+    /* padding: 6px */
+}
+
+.left{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    height: 1.7rem;
+}
+.avatar p{
+   margin-left : 6px;
+}
+.left img{
+    height: 1.2rem 
+}
+.left p{
+    padding: 4px
+}
+
+.etherum img{
+    height: 1rem
+}
+.etherum p{
+    margin-left: 4px
+}
